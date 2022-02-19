@@ -11,7 +11,7 @@
     
 
         <div class="col-lg-3 col-md-4 col-sm-12 text-center mb-3">
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 18rem; margin: 0 auto">
                 <img src="{{ $currency['logo_url'] }}" style="width: 75px; margin:10px auto"/>
                 <div class="card-body">
                     <div class="card-title">{{ $currency['currency'] }}</div>
