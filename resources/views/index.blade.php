@@ -15,9 +15,9 @@
                 <img src="{{ $currency['logo_url'] }}" style="width: 75px; margin:10px auto"/>
                 <div class="card-body">
                     <div class="card-title">{{ $currency['currency'] }}</div>
-                    <div class="card-text" style="margin:5px"> Price: $ {{ $currency['price'] }}</div>
-                    <div class="card-text" style="margin:5px">Circulating supply: {{ $currency['circulating_supply'] }}</div>
-                    <div class="card-text" style="margin:5px">Market cap: {{ $currency['market_cap'] }}</div>
+                    <div class="card-text" style="margin:5px"> Price: ${{ $currency['price'] }}</div>
+                    <div class="card-text" style="margin:5px">Circulating supply: ${{ $currency['circulating_supply'] }}</div>
+                    <div class="card-text" style="margin:5px">Market cap: ${{ $currency['market_cap'] }}</div>
                     <div class="card-text" style="margin:5px">Name: {{ $currency['name'] }}</div>
 
                     @if ($currency['7d']['price_change_pct'] > 0)
